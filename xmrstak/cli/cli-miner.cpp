@@ -771,6 +771,9 @@ int main(int argc, char *argv[])
 	printer::inst()->print_str("-------------------------------------------------------------------\n");
 	printer::inst()->print_str(get_version_str_short().c_str());
 	printer::inst()->print_str("\n\n");
+	printer::inst()->print_str("RainbowMiner version (no devfee)");
+	printer::inst()->print_str("https:\\\\github.com\\rainbowminer\\RainbowMiner");
+	printer::inst()->print_str("\n\n");
 	printer::inst()->print_str("Brought to you by fireice_uk and psychocrypt under GPLv3.\n");
 	printer::inst()->print_str("Based on CPU mining code by wolf9466 (heavily optimized by fireice_uk).\n");
 #ifndef CONF_NO_CUDA
